@@ -1,0 +1,10 @@
+Makefile
+NMakefile
+*.hex
+*.cof
+*.err
+*.lst
+*.map
+*.mcp
+*.mcw
+*.o

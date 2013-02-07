@@ -7,4 +7,5 @@ NMakefile
 *.map
 *.mcp
 *.mcw
+*.mcs
 *.o

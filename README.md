@@ -19,13 +19,13 @@ info about the LCD configuration read the README.md file of my LCD driver.
 Now, when you make the circuit each time before you use it, you'll have to set the voltage reference for the differential amplifier. 
 By setting the pin 6 of the microcontroller high you'll enter into the INIT mode and you will see a 4 digit number. 
 You'll then have to adjust the potentiometers in order this number become almost zero, and I warn you it is not easy, that's why I used 3 potentiometers
-instead of just 1. I also tried to automate this process, but to do that you need a DAC at least 14 bit resolution. That is because the hall sensor is not very sensitive and for 
+instead of just 1. I also tried to automate this process, but to do that you need a DAC with at least a 14 bit resolution. That is because the hall sensor is not very sensitive and for 
 that reason you need a very high gain amplifier, so the voltage reference must be very accurate.
 </p>
 
 <h3>Hardware:</h3>
 <p>
-The program is written for a 16F876A PIC microcontroller, but with some changes you can use it with most 16F PIC microcontroller, 
+The program is written for a 16F876A PIC microcontroller, but with some changes you can use it with most 16F PIC microcontrollers, 
 that has at least 3 analog channels, and with almost no change it should be fine on a 16F876, or 16F877A, or 16F877. You can use any clock you want
 but you will have problems with the LCD driver unless you modified it, or don't use it at all.
 </p>

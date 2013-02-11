@@ -1,3 +1,8 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Copyright (c) 2013 Manolis Agkopian and John Haldeos	      ;
+;See the file LICENCE for copying permission.		      ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;
 ;CONVERTS THE ANALOG READING FOR VOLTAGE TO VOLTS AND THEN RETURNS THEM TO 5 REGISTERS
 ;

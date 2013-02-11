@@ -39,7 +39,13 @@ want to measure its current through the ferrite ring, and the hall sensor must b
 <img src="http://archives.sensorsmag.com/articles/0799/26/fig8.GIF" title="Hall Sensor Setup" alt="Hall Sensor Setup"><br>
 
 <p>
-The schematics can be found in under the SCHEMATICS directory of this project.
+After that, you'll need 2 dual supply type op amps like LM741. I tried it with some single supply op amps but with no luck. I have made a power supply for the op amps that uses, a 12V
+battery, you can find the schematic in the SCHEMATICS directory.
+</p>
+
+<p>
+Also you will need some low voltage drop diodes to protect the microcontroller from negative voltages. And also
+a couple of resistors, capacitors etc. Check out the schematics for more info. The schematics can be found in under the SCHEMATICS directory of this project.
 </p>
 </body>
 </html>

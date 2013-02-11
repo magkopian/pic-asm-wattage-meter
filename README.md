@@ -12,15 +12,15 @@ and a linear hall sensor to measure the magnetic field produced by a wire to est
 <h3>Configuration:</h3>
 <p>
 To use this code you will need my LCD driver, you can find it <a href="https://github.com/magkopian/pic-lcd-driver" title="LCD driver">here</a>, 
-ust add the include files of the LCD driver in the same folder with the wattage meter project files. For more 
-info about the LCD configuration read the readme file of my LCD driver.
+just add the include files of the LCD driver in the same folder with the wattage meter project files, and then build the hex file. For more 
+info about the LCD configuration read the README.md file of my LCD driver.
 </p>
 <p>
-Also when you make the circuit, each time before you use it, you have to set the voltage for the differential amplifier. 
-By setting the pin 6 of the microcontroller high you enter into the INIT mode and you will see a 4 digit number. 
-You will have to adjust the potentiometers in order this number become almost zero. I tried to automate this process 
-but to do that you need a DAC at least 14 bit resolution. This is because the hall sensor is not very sensitive and for 
-that you need a very high gain amplifier, so the voltage reference must be very accurate.
+Now, when you make the circuit each time before you use it, you'll have to set the voltage reference for the differential amplifier. 
+By setting the pin 6 of the microcontroller high you'll enter into the INIT mode and you will see a 4 digit number. 
+You'll then have to adjust the potentiometers in order this number become almost zero, and I warn you it is not easy, that's why I used 3 potentiometers
+instead of just 1. I also tried to automate this process, but to do that you need a DAC at least 14 bit resolution. That is because the hall sensor is not very sensitive and for 
+that reason you need a very high gain amplifier, so the voltage reference must be very accurate.
 </p>
 
 <h3>Hardware:</h3>

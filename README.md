@@ -49,3 +49,6 @@ a couple of resistors, capacitors etc. Check out the schematics for more info. T
 </p>
 </body>
 </html>
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/magkopian/pic-wattage-meter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
